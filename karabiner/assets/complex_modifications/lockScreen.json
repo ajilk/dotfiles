@@ -1,0 +1,26 @@
+{
+    "title": "Lock Screen",
+    "rules": [
+        {
+            "description": "Lock screen using RIGHT_CMD+L",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "l",
+                        "modifiers": {
+                            "mandatory": [
+                                "right_command"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "pmset displaysleepnow"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
