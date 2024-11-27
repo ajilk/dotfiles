@@ -1,2 +1,1 @@
-### Azim's Dotfile
-(in progress)
+### .dotfiles
