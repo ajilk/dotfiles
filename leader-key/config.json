@@ -1,0 +1,89 @@
+{
+  "actions" : [
+    {
+      "actions" : [
+        {
+          "key" : "c",
+          "type" : "application",
+          "value" : "/Applications/Google Chrome.app"
+        },
+        {
+          "key" : "o",
+          "type" : "application",
+          "value" : "/Applications/Microsoft Outlook.app"
+        },
+        {
+          "key" : "z",
+          "type" : "application",
+          "value" : "/Applications/Zed.app"
+        },
+        {
+          "key" : "a",
+          "type" : "application",
+          "value" : "/Applications/Anki.app"
+        },
+        {
+          "key" : "n",
+          "type" : "application",
+          "value" : "/Applications/Obsidian.app"
+        }
+      ],
+      "key" : "o",
+      "label" : "Open Applications",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "e",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
+        },
+        {
+          "key" : "p",
+          "type" : "url",
+          "value" : "raycast://confetti"
+        },
+        {
+          "key" : "c",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/system/open-camera"
+        }
+      ],
+      "key" : "r",
+      "type" : "group"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "h",
+          "label" : "Left Half",
+          "type" : "url",
+          "value" : "rectangle://execute-action?name=left-half"
+        },
+        {
+          "key" : "l",
+          "label" : "Right Half",
+          "type" : "url",
+          "value" : "rectangle://execute-action?name=right-half"
+        },
+        {
+          "key" : "j",
+          "label" : "Bottom Half",
+          "type" : "url",
+          "value" : "rectangle://execute-action?name=bottom-half"
+        },
+        {
+          "key" : "k",
+          "label" : "Top Half",
+          "type" : "url",
+          "value" : "rectangle://execute-action?name=top-half"
+        }
+      ],
+      "key" : "w",
+      "label" : "Window Management",
+      "type" : "group"
+    }
+  ],
+  "type" : "group"
+}
